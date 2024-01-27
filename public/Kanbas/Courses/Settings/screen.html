@@ -40,16 +40,123 @@
                 </ul>
 
             <td width="60%" valign="top">
-                <ul>
-                    <li><a href="/Kanbas/Courses/Settings/CourseDetails/screen.html">Course Details</a></li>
-                    <li><a href="#">Sections</a></li>
-                    <li><a href="/Kanbas/Courses/Settings/Navigation/screen.html">Navigation</a></li>
-                    <li><a href="#">Apps</a></li>
-                    <li><a href="#">Feature Options</a></li>
-                    <li><a href="#">Integrations</a></li>
-                </ul>
+                <a href="/Kanbas/Courses/Settings/CourseDetails/screen.html"><button type="button">Course Details</button></a>
+            <button>Sections</button>
+            <a href="/Kanbas/Courses/Settings/Navigation/screen.html"><button type="button">Navigation</button></a>
+            <button>Apps</button>
+            <button>Feature Options</button>
+            <button>Integrations</button>
+
+
+            <h1>Course Details</h1>
+
+<form>
+    <label for="imageUpload">Image:</label>
+    
+    <button type="button">Choose Image</button><br><br>
+    
+    <p><strong>Name: </strong>  CS4550 12631 Web Development SEC 01 Fall 2023 [BOS-1-TR]</p> 
+    
+    <p><strong>courseCode: </strong>  CS4550.12631.202410</p>
+
+    <p><strong>Blueprint: </strong>  No</p>
+   
+    <label for="courseTemplate"><strong>Template:</strong></label>
+    <input type="checkbox" id="courseTemplate"><label for="courseTemplate">Enable course as a Course Template</label></br></br>
+    
+    <label for="Time Zone"><strong>Time Zone:</strong></label>
+    <select id="Time Zone">
+        <option>Eastern Time (US & Canada) (-05:00/-04:00)</option>
+    </select><br><br>
+    
+    <p><strong>SIS ID: </strong>  CS4550.12631.202410</p>
+
+    <p><strong>Subaccount: </strong>  <a href="#">CS Undergrad</a></p>
+   
+
+    <p><strong>term: </strong>  202410_1 Fall 2023 Semester Full Term</p>
+    
+   
+    <label for="Participation"><strong>Participation:</strong></label>
+    <select id="Participation">
+        <option>Term</option>
+        <!-- Other participation options -->
+    </select><br>
+    
+    <p>Course participation is limited to <strong>term</strong> start and end dates.</p>
+    
+    <label for="startDate"><strong>Start:</strong></label><br><br>
+    <input type="date" id="startDate"><br><br>
+    
+    <label for="endDate"><strong>End:</strong></label><br><br>
+    <input type="date" id="endDate"><br><br>
+    
+    <input type="checkbox" id="restrictBefore">
+    <label for="restrictBefore">Restrict students from viewing course before term start date</label><br>
+    
+    <input type="checkbox" id="restrictAfter">
+    <label for="restrictAfter">Restrict students from viewing course after term end date</label><br><br>
+    
+    <label for="defaultDueTime"><strong>Default due time:</strong>></label>
+    <select id="defaultDueTime">
+        <option>Account default (11:59pm)</option>
+    </select><br><br>
+    
+    <label for="language"><strong>Language:</strong></label>
+    <select id="language">
+        <option>Not set (user-configurable, defaults to English (Unit)</option>
+    </select><br><br>
+    
+    <p><strong>File Storage: </strong>  10000 megabytes</p>
+    
+    <label for="Large Course"><strong>Large Course:</strong></label>
+    <input type="checkbox" id="large Course">
+    <label for="large Course">Launch SpeedGrader Filtered by Student Group</label><br><br>
+    
+    <label for="Grading Scheme"><strong>Grading Scheme:</strong></label>
+    <input type="checkbox" id="Grading Scheme">
+    <label for="Grading Scheme">Enable course grading scheme</label><br><br>
+    
+    <label for="license"><strong>License:</strong></label>
+    <select id="license">
+        <option>Private (Copyrighted)</option>
+    </select><br><br>
+    
+    <label for="File Copyright"><strong>File Copyright:</strong></label>
+    <input type="checkbox" id="File Copyright">
+    <label for="File Copyright">Enable and license information must be provided for files before they are published.</label><br><br>
+    
+    <label for="visibility"><strong>Visibility:</strong></label>
+    <select id="visibility">
+        <option>Course</option>
+    </select><br><br>
+    
+    <input type="checkbox" id="publicCourseIndex">
+    <label for="publicCourseIndex">Include this course in the public course index</label><br><br>
+    
+    <label for="format"><strong>Format:</strong></label>
+    <select id="format">
+        <option>On-Campus</option>
+    </select><br><br>
+    
+    <input type="checkbox" id="masteryPaths">
+    <label for="masteryPaths">Enable individual learning paths for students based on assessment</label><br><br>
+    
+    <label for="description"><strong>Description:</strong>></label><br>
+    <textarea id="description" rows="4" cols="50"></textarea><br><br>
+    
+    <a href="#">more options</a><br><br>
+    
+    <button type="submit">Update Course Details</button>
+</form>
+
             </td>
         </tr>
+
+        
     </table>
+
+
+    
 </body>
 </html>
