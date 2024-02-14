@@ -1,140 +1,167 @@
-<!DOCTYPE html>
-<body>
-    <table width = "100%" border="0"> 
-        <tr>
-            <td width="10%" valign="top">
-                <ul>
-                    <li><a href="/Kanbas/Account/Navigation/index.html">Account</a></li>
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
-                    <li><a href="#">Calendar</a></li>
-                    <li><a href="#">Inbox</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Studio</a></li>
-                    <li><a href="#">Commons</a></li>
-                    <li><a href="#">Help</a></li>
-                </ul>
+<html>
+  <head>
+    <link rel="stylesheet" href="../../../Kanbas/style.css" />
+    <link rel="stylesheet" href="../Home/index.css" />
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="public/Kanbas/Navigation/index.css" />
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.css"
+        rel="stylesheet"/>
+        <link href="/libs/bootstrap/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/Kanbas/styles.css" />
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="/Kanbas/Courses/Navigation/index.css"
+/>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="/Kanbas/Courses/Modules/index.css"
+/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  </head>
+  <body>
+    <!-- Implement links to Kanbas and Course Navigation -->
+    <div class="d-flex">
+      <div class="d-none d-md-block">
+        <ul class="wd-kanbas-navigation">
+          <!-- Copy Kanbas Navigation Here -->
+          <li><a href="http://northeastern.edu"><img class="wd-logo-dimensions" src="/images/neulogo.png"/>
+          </a></li>
+          <li><a href="/Kanbas/Account/Profile/screen.html"><i class="fa-regular fa-user" style="color: white"></i>Account</a></li> 
+          <li>
+            <a href="/Kanbas/Dashboard/screen.html">
+              <i class="fa fa-tachometer"></i> Dashboard</a>
+          </li>
+          <li class="wd-active">
+              <a href="/Kanbas/Courses/Home/screen.html">
+                <i class="fa-brands fa-discourse"></i> Courses</a>
+            </li>
+          
+          <li><a href="#"><i class="fa-solid fa-calendar-days"></i>Calendar</a></li>
+          <li><a href="#"><i class="fa-solid fa-inbox"></i> Inbox</a></li>
+          <li><a href="#"><i class="fa-regular fa-clock"></i>History</a></li>
+          <li><a href="#"><i class="fa-solid fa-radio"></i>Studio</a></li>
+          <li><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>Commons</a></li>
+          <li><a href="#"><i class="fa-solid fa-circle-question"></i><div>Help</div></a></li>
+        </ul>
+      </div>
+
+      <div class="d-none d-md-block" style="padding-left:100px">
+        <ul class="wd-navigation">
+          <!-- Copy Course Navigation Here -->
+          <li>
+            <a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+          <li class="wd-active">
+            <a href="/Kanbas/Courses/Modules/screen.html">Modules</a>
+          </li>
+          <li><a href="http://piazza.com">Piazza</a></li>
+          <li><a href="#">Zoom</a></li>
+          <li>
+            <a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
+          </li>
+          <li><a href="#">Quizzes</a></li>
+          <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+          <li><a href="#">People</a></li>
+          <li><a href="#">Panopto Video</a></li>
+          <li><a href="#">Discussions</a></li>
+          <li><a href="#">Announments</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Files</a></li>
+          <li><a href="#">Rubrics</a></li>
+          <li><a href="#">Outcomes</a></li>
+          <li><a href="#">Collaborations</a></li>
+          <li><a href="#">Syllabus</a></li>
+          <li><a href="/Kanbas/Courses/Settings/screen.html">Settings</a></li>
+        </ul>
+      </div>
 
 
+      <div class="flex-fill" style="margin-left:100px;">
+        
+        <ul class="list-group wd-modules">
+          <!-- Copy Course Home here -->
+          <div class="wd-flex-row-container">
+          <button class="btn btn-primary">Collapse All</button>
+<button class="btn btn-success">Expand All</button>
+<button class="btn btn-info">View Progress</button>
+</div>
+          <li class="list-group-item">
+            <div class="wd-flex-row-container">
+                <div>
+                  Week 1
+                </div>
+                  <div class="edit">
+                  <button class="btn btn-secondary btn-sm">+</button>
+                  <button class="btn btn-secondary btn-sm">Edit</button>
+                  <button class="btn btn-danger btn-sm">Delete</button>
+                  </div>
+              </div>
+            <ul class="list-group">
+              <li class="list-group-item">Learning Objectives</li>
+                      <li class="list-group-item">Introduction to the course</li>
+                      <li class="list-group-item">Learn what is Web Development</li>
+                      <li class="list-group-item">Learning Objectives</li>
+                      <li class="list-group-item">Introduction to the course</li>
+                      <li class="list-group-item">Learn what is Web Development</li>
+                      <li class="list-group-item">Learning Objectives</li>
+                      <li class="list-group-item">Introduction to the course</li>
+                      <li class="list-group-item">Learn what is Web Development</li>
+                      <li class="list-group-item">Learning Objectives</li>
+                      <li class="list-group-item">Introduction to the course</li>
+                      <li class="list-group-item">Learn what is Web Development</li>
+                      <li class="list-group-item">Learning Objectives</li>
+                      <li class="list-group-item">Introduction to the course</li>
+                      <li class="list-group-item">Learn what is Web Development</li>
+                      <li class="list-group-item">Learning Objectives</li>
+                      <li class="list-group-item">Introduction to the course</li>
+                      <li class="list-group-item">Learn what is Web Development</li>
+            </ul>
+          </li>
+          <li class="list-group-item">
+            <div>Week 2</div>
+            <ul class="list-group">
+              <li class="list-group-item">Learning Objectives</li>
+              <li class="list-group-item">Introduction to the course</li>
+              <li class="list-group-item">Learn what is Web Development</li>
+              <li class="list-group-item">Learning Objectives</li>
+              <li class="list-group-item">Introduction to the course</li>
+              <li class="list-group-item">Learn what is Web Development</li>
+              <li class="list-group-item">Learning Objectives</li>
+              <li class="list-group-item">Introduction to the course</li>
+              <li class="list-group-item">Learn what is Web Development</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
 
-            <td width="10%" valign="top">
-                <ul>
-                    <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
-                    <li><a href="#">Modules</a></li>
-                    <li><a href="#">Piazza</a></li>
-                    <li><a href="#">Zoom Meetings</a></li>
-                    <li><a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a></li>
-                    <li><a href="#">Quizzes</a></li>
-                    <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
-                    <li><a href="#">People</a></li>
-                    <li><a href="#">Panopto Video</a></li>
-                    <li><a href="#">Discussions</a></li>
-                    <li><a href="#">Announments</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Files</a></li>
-                    <li><a href="#">Rubrics</a></li>
-                    <li><a href="#">Outcomes</a></li>
-                    <li><a href="#">Collaborations</a></li>
-                    <li><a href="#">Syllabus</a></li>
-                    <li><a href="/Kanbas/Courses/Settings/screen.html">Settings</a></li>
-                </ul>
+      <div class="flex-grow-0 me-2 d-none d-lg-block" style="width: 250px">
+        <h3>Course Status</h3>
+          <!-- Implement Course Status here -->
 
-            <td width="80%" valign="top">
-                <table width = "100%" border="0"> 
-                    <tr>
-                        <!-- Left Side Column for Buttons and Dropdowns -->
-                        <td width="50%" valign="top">
-                            <button>Collapse All</button>
-                            <button>View Progress</button>
-                            <select>
-                                <option value="Publish All">Publish All</option>
-                                <!-- dropdown options -->
-                            </select>
-                            <button>Module</button>
-                            
-                            <ul>
-                                <li>Week 0 - INTRO</li>
-                                <ul>
-                                    <li>LEARNING OBJECTIVES</li>
-                                    <ul>
-                                        <li>Introduction to the course</li>
-                                        <li>Learn what is Web Development</li>
-                                        <li>Create a development environment</li>
-                                        <li>Creating a Web Application</li>
-                                        <li>Getting started with the list assignment</li>
-                                    </ul>
-                                </ul>
-            
-                                <ul>
-                                    <li>READING</li>
-                                    <ul>
-                                        <li>Full Stack Developer - Chapter 1 - Introduction</li>
-                                        <li>Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML</li>
-                                    </ul>
-                                </ul>
-            
-                                <ul>
-                                    <li>SLIDES</li>
-                                    <ul>
-                                        <li><a href="#">Introduction to Web Development Links to an external site.</a></li>
-                                        <li><a href="#">Creating a HTTP server with Node.js Links to an external site.</a></li>
-                                        <li><a href="#">Creating a React Application Links to an external site.</a></li>
-                                    </ul>
-                                </ul>
-                            </ul>
-                            
-                           
-                    
-                            
-                            <ul>
-                                <li>Week 1 - TITLE</li>
-                                <ul>
-                                    <li>LEARNING OBJECTIVES</li>
-                                    <ul>
-                                        <li>Learn how to create user interfaces with HTML</li>
-                                        <li>Keep working on assignment 1</li>
-                                        <li>Deploy the assignment to Netlify</li>
-                                    </ul>
-            
-                                    <li>READING</li>
-                                    <ul>
-                                        <li>Full Stack Developer - Chapter 1 - Introduction</li>
-                                        <li>Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML</li>
-                                    </ul>
-            
-                                </ul>
-            
-                                
-            
-                            </ul>
-                            
-            
-                        <td width="50%" valign="top" valign="right">
-                        <h2>Course Status</h2>
-                        <button>Unpublish</button>
-                        <button>Published</button>
-                            <ul>
-                                <li><a href="#">Import Existing Content</a></li>
-                                <li><a href="#">Import From Commons</a></li>
-                                <li><a href="#">Choose Home Page</a></li>
-                                <li><a href="#">View Course Stream</a></li>
-                                <li><a href="#">New Announcement</a></li>
-                                <li><a href="#">New Analytics</a></li>
-                                <li><a href="#">View Course Notificatios</a></li>
-                            </ul>
-            
-                        <h2>Coming Up</h2>
-                        <a href="#">View Calendar</a>
-                            <ul>
-                                <li><a href="#">Lecture CS4550.12631.202410 Sep 7 at 11:45am</a></li>
-                                <li><a href="#">Lecture CS4550.12631.202410 Sep 11 at 11:45am</a></li>
-                                <li><a href="#">CS5610 06 SP23Lecture Sep 11 at 6pm</a></li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-</body>
+          <h4>Course Status</h4>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <button>Unpublish</button>
+                </td>
+                <td>
+                  <button>Publish</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <button>Import Existing Content</button><br />
+          <button>Import From Commons</button><br />
+          <button>Choose Home Page</button><br />
+
+      </div>
+    </div>
+  </body>
 </html>
+
+
+
+
