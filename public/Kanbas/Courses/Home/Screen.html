@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
   </head>
+
+
   <body>
     <!-- Implement links to Kanbas and Course Navigation -->
     <div class="d-flex">
@@ -78,7 +80,7 @@
       </div>
 
 
-      <div class="flex-fill" style="margin-left:100px;">
+      <div class="col-7">
         
         <ul class="list-group wd-modules">
           <!-- Copy Course Home here -->
@@ -87,17 +89,33 @@
 <button class="btn btn-success">Expand All</button>
 <button class="btn btn-info">View Progress</button>
 </div>
+
+
+
           <li class="list-group-item">
             <div class="wd-flex-row-container">
-                <div>
-                  Week 1
-                </div>
+                
+                    <div>
+                      
+                      <i class="fa fa-ellipsis-v"></i> Week 1
+
+                      <span class="float-end">
+                        <i class="fa fa-check-circle text-success"></i>
+                        <i class="fa fa-plus ms-2"></i>
+                        <i class="fa fa-ellipsis-v ms-2"></i>
+                      </span>
+                        
+            
                   <div class="edit">
                   <button class="btn btn-secondary btn-sm">+</button>
                   <button class="btn btn-secondary btn-sm">Edit</button>
                   <button class="btn btn-danger btn-sm">Delete</button>
                   </div>
               </div>
+            
+
+
+
             <ul class="list-group">
               <li class="list-group-item">Learning Objectives</li>
                       <li class="list-group-item">Introduction to the course</li>
@@ -119,27 +137,49 @@
                       <li class="list-group-item">Learn what is Web Development</li>
             </ul>
           </li>
+
+        
           <li class="list-group-item">
-            <div>Week 2</div>
-            <ul class="list-group">
-              <li class="list-group-item">Learning Objectives</li>
-              <li class="list-group-item">Introduction to the course</li>
-              <li class="list-group-item">Learn what is Web Development</li>
-              <li class="list-group-item">Learning Objectives</li>
-              <li class="list-group-item">Introduction to the course</li>
-              <li class="list-group-item">Learn what is Web Development</li>
-              <li class="list-group-item">Learning Objectives</li>
-              <li class="list-group-item">Introduction to the course</li>
-              <li class="list-group-item">Learn what is Web Development</li>
+            <div class="wd-flex-row-container">
+                <ul class="list-group wd-modules">
+                    <div>
+                      <i class="fa fa-ellipsis-v"></i> Week 2
+                      <span class="float-end">
+                        <i class="fa fa-check-circle text-success"></i>
+                        <i class="fa fa-plus ms-2"></i>
+                        <i class="fa fa-ellipsis-v ms-2"></i>
+                      </span>
+            
+                  <div class="edit">
+                  <button class="btn btn-secondary btn-sm">+</button>
+                  <button class="btn btn-secondary btn-sm">Edit</button>
+                  <button class="btn btn-danger btn-sm">Delete</button>
+                  </div>
+              </div>
             </ul>
-          </li>
+          </div>
+
+
+        <ul class="list-group">
+          <li class="list-group-item">Learning Objectives</li>
+          <li class="list-group-item">Introduction to the course</li>
+          <li class="list-group-item">Learn what is Web Development</li>
+          <li class="list-group-item">Learning Objectives</li>
+          <li class="list-group-item">Introduction to the course</li>
+          <li class="list-group-item">Learn what is Web Development</li>
+          <li class="list-group-item">Learning Objectives</li>
+          <li class="list-group-item">Introduction to the course</li>
+          <li class="list-group-item">Learn what is Web Development</li>
         </ul>
+      </li>
       </div>
 
-      <div class="flex-grow-0 me-2 d-none d-lg-block" style="width: 250px">
-        <h3>Course Status</h3>
-          <!-- Implement Course Status here -->
 
+      <div class="d-none d-lg-block">
+    <div class="d-flex justify-content-end align-items-start">
+      <div class="top-right">
+          <!-- Content here -->
+  
           <h4>Course Status</h4>
           <table>
             <tbody>
@@ -156,9 +196,13 @@
           <button>Import Existing Content</button><br />
           <button>Import From Commons</button><br />
           <button>Choose Home Page</button><br />
-
       </div>
     </div>
+      </div>
+
+
+
+
   </body>
 </html>
 

@@ -1,46 +1,89 @@
-<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../../../Kanbas/style.css" />
+    <link rel="stylesheet" href="../Home/index.css" />
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="public/Kanbas/Navigation/index.css" />
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.css"
+        rel="stylesheet"/>
+        <link href="/libs/bootstrap/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/Kanbas/styles.css" />
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="/Kanbas/Courses/Navigation/index.css"
+/>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="/Kanbas/Courses/Modules/index.css"
+/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  </head>
 
 <body>
-    <table width = "100%" border="0"> 
-        <tr>
-            <td width="10%" valign="top">
-                <ul>
-                    <li><a href="/Kanbas/Account/Navigation/index.html">Account</a></li>
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
-                    <li><a href="#">Calendar</a></li>
-                    <li><a href="#">Inbox</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Studio</a></li>
-                    <li><a href="#">Commons</a></li>
-                    <li><a href="#">Help</a></li>
-                </ul>
+    <!-- Implement links to Kanbas and Course Navigation -->
+    <div class="d-flex">
+      <div class="d-none d-md-block">
+        <ul class="wd-kanbas-navigation">
+          <!-- Copy Kanbas Navigation Here -->
+          <li><a href="http://northeastern.edu"><img class="wd-logo-dimensions" src="/images/neulogo.png"/>
+          </a></li>
+          <li><a href="/Kanbas/Account/Profile/screen.html"><i class="fa-regular fa-user" style="color: white"></i>Account</a></li> 
+          <li>
+            <a href="/Kanbas/Dashboard/screen.html">
+              <i class="fa fa-tachometer"></i> Dashboard</a>
+          </li>
+          <li class="wd-active">
+              <a href="/Kanbas/Courses/Home/screen.html">
+                <i class="fa-brands fa-discourse"></i> Courses</a>
+            </li>
+          
+          <li><a href="#"><i class="fa-solid fa-calendar-days"></i>Calendar</a></li>
+          <li><a href="#"><i class="fa-solid fa-inbox"></i> Inbox</a></li>
+          <li><a href="#"><i class="fa-regular fa-clock"></i>History</a></li>
+          <li><a href="#"><i class="fa-solid fa-radio"></i>Studio</a></li>
+          <li><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>Commons</a></li>
+          <li><a href="#"><i class="fa-solid fa-circle-question"></i><div>Help</div></a></li>
+        </ul>
+      </div>
+
+      <div class="d-none d-md-block" style="padding-left:100px">
+        <ul class="wd-navigation">
+          <!-- Copy Course Navigation Here -->
+          <li>
+            <a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+          <li class="wd-active">
+            <a href="/Kanbas/Courses/Modules/screen.html">Modules</a>
+          </li>
+          <li><a href="http://piazza.com">Piazza</a></li>
+          <li><a href="#">Zoom</a></li>
+          <li>
+            <a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
+          </li>
+          <li><a href="#">Quizzes</a></li>
+          <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+          <li><a href="#">People</a></li>
+          <li><a href="#">Panopto Video</a></li>
+          <li><a href="#">Discussions</a></li>
+          <li><a href="#">Announments</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Files</a></li>
+          <li><a href="#">Rubrics</a></li>
+          <li><a href="#">Outcomes</a></li>
+          <li><a href="#">Collaborations</a></li>
+          <li><a href="#">Syllabus</a></li>
+          <li><a href="/Kanbas/Courses/Settings/screen.html">Settings</a></li>
+        </ul>
+      </div>
 
 
+      <div class="flex-fill" style="margin-left:100px;">
 
-            <td width="10%" valign="top">
-                <ul>
-                    <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
-                    <li><a href="#">Modules</a></li>
-                    <li><a href="#">Piazza</a></li>
-                    <li><a href="#">Zoom Meetings</a></li>
-                    <li><a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a></li>
-                    <li><a href="#">Quizzes</a></li>
-                    <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
-                    <li><a href="#">People</a></li>
-                    <li><a href="#">Panopto Video</a></li>
-                    <li><a href="#">Discussions</a></li>
-                    <li><a href="#">Announments</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Files</a></li>
-                    <li><a href="#">Rubrics</a></li>
-                    <li><a href="#">Outcomes</a></li>
-                    <li><a href="#">Collaborations</a></li>
-                    <li><a href="#">Syllabus</a></li>
-                    <li><a href="/Kanbas/Courses/Settings/screen.html">Settings</a></li>
-                </ul>
-
-            <td width="80%" valign="top">
+        <ul class="list-group wd-modules">
+          <!-- Copy Course Home here -->
+          <div class="wd-flex-row-container">
                 <table border="0" width="100%">
                     <tr>
                         <td colspan="10"> 
@@ -151,5 +194,8 @@
             </td>
         </tr>
     </table>
+
+    <div class="flex-grow-0 me-2 d-none d-lg-block" style="width: 250px">
+
 </body>
 </html>
