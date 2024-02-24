@@ -65,6 +65,9 @@
   
 
   .breadcrumb-item + .breadcrumb-item::before {
-    content: ">";
+    content: ">"!important;
   }
   
+  .module-style {
+    align-items: end !important;
+  }
