@@ -1,0 +1,36 @@
+.wd-kanbas-navigation {
+  background-color: black;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100px;
+}
+
+
+.wd-kanbas-navigation li {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.wd-kanbas-navigation li.wd-active {
+  background-color: white;
+}
+
+/* Active state for icons remains unchanged */
+.wd-kanbas-navigation a, .wd-kanbas-navigation a svg {
+  color: red; /* Icons are always red */
+  text-decoration: none;
+}
+
+/* Style for inactive labels */
+.wd-kanbas-navigation a .label {
+  color: white; /* Inactive labels are white */
+  display: block; /* Ensures the label is on a new line */
+}
+
+/* Style for active labels */
+.wd-kanbas-navigation li.wd-active a .label {
+  color: red; /* Active labels are red */
+}
