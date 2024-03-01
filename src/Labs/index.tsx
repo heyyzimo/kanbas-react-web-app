@@ -1,6 +1,6 @@
 import Nav from "../Nav";
 import Assignment3 from "./a3";
-import JavaScript from "./a3/JavaScript";
+//import JavaScript from "./a3/JavaScript";
 import {Routes, Route,Link} from "react-router-dom";
 import Assignment4 from "./a4";
 

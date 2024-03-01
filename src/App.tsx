@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import Labs from "./Labs";
 import HelloWorld from "./Labs/a3/HelloWorld";
@@ -17,9 +17,6 @@ function App() {
           <Route path="/Kanbas/*" element={<Kanbas/>}/>
           <Route path="/hello"    element={<HelloWorld/>}/>
         </Routes>
-         {/* <Labs/>
-         <HelloWorld/>
-         <Kanbas/> */}
       </div>
       </HashRouter>
    );

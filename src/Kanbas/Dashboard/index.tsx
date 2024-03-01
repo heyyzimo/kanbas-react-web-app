@@ -15,6 +15,7 @@ function Dashboard() {
               <div className="card">
                 <img
                   src="/images/reactjs.jpg"
+                  alt=""
                   className="card-img-top"
                   style={{ maxHeight: "150px" }}
                 />

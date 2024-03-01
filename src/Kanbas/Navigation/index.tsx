@@ -33,7 +33,7 @@ function KanbasNavigation() {
     <ul className="wd-kanbas-navigation">
 
       <li className="logo-container">
-    <img src={"/images/neulogo.png"} style={{ width: 'auto', height: '90px', margin: 0, padding: 0, backgroundColor: 'black' }} />
+    <img src={"/images/neulogo.png"} alt = "" style={{ width: 'auto', height: '90px', margin: 0, padding: 0, backgroundColor: 'black' }} />
   </li>
 
 {links.map((link, index) => (

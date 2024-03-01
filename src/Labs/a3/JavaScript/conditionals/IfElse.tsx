@@ -1,4 +1,3 @@
-let true1 = true, false1 = false;
 function IfElse() {
     let true1 = true, false1 = false;
 return(
